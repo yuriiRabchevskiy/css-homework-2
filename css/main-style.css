@@ -37,7 +37,7 @@ body {
     outline: 0;
     border-radius: 0px;
     background-color: transparent;
-    background-image: url("img/searchIcon.png");
+    background-image: url("css/img/searchIcon.png");
     background-position: 0px 0px;
     background-repeat: no-repeat;
     opacity: 0.5;
