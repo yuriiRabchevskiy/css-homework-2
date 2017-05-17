@@ -1,3 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    color: black;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px auto;
+    overflow-x: hidden;
+}
+.text-blue {
+    color: #6DB7E7;
+}
+.btn-my-style {
+    border: 2px solid #6DB7E7;
+    color: #6DB7E7;
+    border-radius: 0px;
+}
+.btn-my-style:hover {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+/*style for search in header*/
+.u-search .u-search-form {
+    margin: 0px;
+    padding: 14px 15px;
+    position: relative;
+}
+.u-search .u-search-btn {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    outline: 0;
+    border-radius: 0px;
+    background-color: transparent;
+    background-image: url("img/searchIcon.png");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    box-shadow: none;
+}
+.u-search .u-search-btn:hover,
+.u-search .u-search-btn:focus {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    outline: 0;
+    border-radius: 0px;
+    background-color: transparent;
+    background-image: url("img/searchIcon.png");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    box-shadow: none;
+}
+.u-search-form .form-group {
+    padding-left: 20px;
+}
+.u-search-form .form-control {
+    text-indent: 0.3em;
+    padding: 0px;
+    height: 22px;
+    max-width: 170px;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+/*style for section cta-banner */
+.u-banner {
+    width: 100%;
+    height: 385px;
+    background-color: transparent;
+    background-image: url("img/cta-banner.jpg");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.u-banner .jumbotron >* {
+    color: #ffffff;
+}
+.u-banner .jumbotron {
+    background: transparent;
+}
+/*style for credibility section*/
+.credibility-wrapper {
+    height: 60px;
+    overflow: hidden;
+}
+.u-credibility-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+}
+.u-credibility-list .thumbnail {
+    box-shadow: none;
+    margin: 0px;
+    border: none;
+}
+/*style for subscribe section*/
+.subscribe-wrapper {
+    color: #ffffff;
+    height: 175px;
+    width: 100%;
+    background-color: #6DB7E7;
+}
+
+
+/* wwwwwwwwwwwwwwwwwwwwww */
 .u-featured-item-img {
     width: 100%;
     height: 100%;
@@ -5,5 +125,73 @@
 
 /*style for latest episodes section*/
 .u-last-episodes {
+    height: 512px;
     background: black;
+}
+.u-last-episodes-header {
+    color: #ffffff;
+}   
+
+.u-last-episodes .thumbnail {
+    background: transparent;
+    border: none;
+    width: 200px;
+    margin: 0px auto;
+}
+/*style for popular episode*/
+.u-popupal-episodes-head {
+    margin-bottom: 40px;
+}
+.u-popEpisod-art {
+    margin-bottom: 20px;
+}
+.u-popEpisod-art-header {
+    margin-top: 0px;
+}
+/*style for section consume*/
+.u-consume {
+    width: 100%;
+    height: 204px;
+    background-color: #CDCCCF;
+}
+.u-consume-item .img-circle {
+    width: 55px;
+    height: 51px;
+    background: black;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.u-consume-item img {
+    border-radius: 4px;
+}
+/*style for section epilogue*/
+.u-epilogue {
+    color: #ffffff;
+    height: 404px;
+    background-color: #000A08;
+}
+.u-epilogue-logo-wrap {
+    padding: 20px 0px;
+}
+.u-epilogue-content-wrap {
+    padding: 0px;
+    padding-left: 8px;
+}
+.u-epilogue-content {
+    color: #333;
+    font-size: 12px;
+}
+
+/*style for footer*/
+.u-segalese {
+    height: 38px;
+    background-color: #0D1412;
+}
+.u-segalese h6 {
+    color: #ffffff;
+    line-height: 38px;
+    margin: 0px;
 }
